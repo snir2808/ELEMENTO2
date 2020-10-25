@@ -159,6 +159,7 @@ box-shadow: 7px 12px 36px 22px rgba(255,255,255,0.36);
   img{
     border-radius: 15px;
     border: none;
+    
   }
   .logo_h1{
     font-family: 'Staatliches', cursive;
@@ -269,3 +270,127 @@ box-shadow: 7px 12px 36px 22px rgba(255,255,255,0.36);
   }
   .btn .buy {font-size: 19px;transition: transform 0.3s; font-weight: bolder;}
   
+
+  /*media query*/
+
+  @media only screen and (max-width: 600px){
+
+    html,body{
+      margin: 0;
+    }
+
+
+.logo{
+  max-width: 375px;
+  max-height: 208px;
+  margin: 0 auto;
+}
+.logo_h1{
+  max-width: 300px;
+  max-height: 350px;
+  text-align: center;
+}
+.card_11{
+  background-image: url(./img/P1046247.JPG);
+  background-position-x: center;
+  margin: 1%;
+  right: 0px;
+  width: 95%;
+  left: 1.5%;
+  border-radius: 15px;
+}
+.back_1{
+  margin: 1%;
+  right: 0px;
+  width: 92%;
+}
+.card_1_img{
+  margin: 0;
+  display: none;
+}
+
+.card_22{
+  background-image: url(./img/新款太阳能移动电源无线充IMG_1680.JPG);
+  background-position-x: center;
+  margin: 1%;
+  right: 0px;
+  width: 95%;
+  left: 2%;
+  top: 6%;
+  border-radius: 15px;
+}
+
+.back_2{
+  right: 3.5%;
+  width: 89%;
+  top: 6%;
+}
+.card_33{
+  background-image: url(./img/P1046348.JPG);
+  background-position-x: center;
+  margin: 1%;
+  right: 0px;
+  width: 95%;
+  left: 2%;
+  top: 12%;
+  border-radius: 15px;
+}
+.back_3{
+  right: 3%;
+  width: 89%;
+  top: 14%;
+}
+.card_44{
+  background-image: url(./img/P1046151279.jpg);
+  background-position-x: center;
+  width: 78%;
+  top: 16%;
+  border-radius: 15px;
+  margin-left: -54%;
+}
+.back_4{
+  width: 78%;
+  top: 16%;
+  border-radius: 15px;
+  position: absolute;
+  left: 73%;
+}
+
+
+.h1_rev{
+  margin-bottom: 5%;
+  }
+
+.card_6{
+  display: none;
+}
+.back_6{
+  display: none;
+}
+.card_7{
+  display: none;
+}
+.back_7{
+  display: none;
+}
+
+.sleed_2{
+  position: relative;
+  margin-top: 17%;
+  left: -2%;
+}
+.h1_fotter{
+  margin: 0 auto;
+  font-size: 63px;
+  width: 65px;
+}
+.bul_li{
+  font-size: 16px;
+}
+.span_li{
+  font-size: 20px;
+}
+.bullets{
+  margin: 3%;
+  padding-bottom: 173%;}
+}
